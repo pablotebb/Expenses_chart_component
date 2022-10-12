@@ -27,7 +27,7 @@ body {
   height: 46.125rem;
   margin: 4.0625rem auto 4.375rem;
 }
-@media (min-width: 83.75rem) {
+@media (min-width: 36.4375rem) {
   .main-container {
     margin: 3.0625rem auto 4.375rem;
     width: 33.125rem;
@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.125rem;
   font-weight: 700;
 }
-@media (min-width: 83.75rem) {
+@media (min-width: 36.4375rem) {
   .section-balance {
     padding: 1.125rem;
   }
@@ -107,7 +107,7 @@ body {
 }
 .section-data-graphic__bars {
   background-color: hsl(10deg, 79%, 65%);
-  width: 1.5625rem;
+  min-width: 25px;
   margin-right: 1.1875rem;
   border-radius: 0.25rem;
 }
@@ -149,7 +149,7 @@ body {
   right: 0.625rem;
   color: hsl(28deg, 10%, 53%);
 }
-@media (min-width: 83.75rem) {
+@media (min-width: 36.4375rem) {
   .section-data-graphic {
     width: 33.125rem;
     height: 32.4375rem;
